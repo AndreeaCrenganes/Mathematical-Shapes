@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mathematical Shapes</title>
+</head>
+<body>
+    <script>
+        //Diagonal of a square
+        const l = 9;
+        diagonal = Math.sqrt( l*2 + l*2 )
+        console.log( "Diagonal of a square where the length of eachside is 9 is: " + diagonal);
+
+        //Area of a triangle
+        const a = 5; b = 6; c = 7;
+        const p = ( a + b + c) / 2
+        const area = Math.sqrt( p * ( p - a ) * ( p - b ) * ( p - c ));
+        console.log( "Area of a triangle where lengths of the three of its sides are 5, 6 and 7 is: " + area);
+
+        //Circumference and Surface of a circle
+        const r = 4;
+        const Circumference = 2*r*Math.PI;
+        const Surface = r*r*Math.PI;
+        console.log( "Circumference of a circle is: " + Circumference + " and surface of a circle is: " + Surface + " with radius 4.");
+
+
+    </script>
+</body>
+</html>
